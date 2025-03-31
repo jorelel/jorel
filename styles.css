@@ -1,0 +1,101 @@
+body {
+  text-align: justify;
+  background-color: #F1F1F1;
+  font-family: 'garamond', serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 3px #888888;
+  font-family: 'Garamond', serif;
+  font-size: 2.5em;
+  color: #333;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.section-box {
+  border: 2px solid #545454;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.section-box h1 {
+font-size: 2em;
+color: #4A4A4A;
+text-align: center;
+background: linear-gradient(45deg, #D9D9D9, #545454);
+color: white;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 15px;
+}
+
+p {
+text-align: justify;
+text-indent: 30px;
+line-height: 1.8;
+margin: 20px;
+padding: 15px;
+font-size: 1.1em;
+border:  1px #545454; 
+border-radius: 8px; 
+background-color: #ffffff; 
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+p sup {
+  font-size: 0.8em;
+  color: #888888;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+}
+s
+.section-box p {
+  margin-bottom: 10px;
+}
+
+button {
+  background: linear-gradient(45deg, #545454, #D9D9D9);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  font-family: 'Garamond', serif;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #333, #888);
+  transform: scale(1.05);
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
